@@ -9,22 +9,22 @@
 </head>
 <body>
     <div class="d-flex justify-content-center ">
-        <form style="margin: 10px; width: 50%;">
+        <form style="margin: 10px; width: 50%;" action="../proses/tambah.php" method="post">
             <div class="mb-3">
                 <label for="inputCatalog" class="form-label">Kode Buku</label>
-                <input type="text" class="form-control" id="inputCatalog">
+                <input type="text" class="form-control" id="inputCatalog" name="kode-buku">
             </div>
             <div class="mb-3">
                 <label for="inputJudul" class="form-label">Judul Buku</label>
-                <input type="text" class="form-control" id="inputJudul">
+                <input type="text" class="form-control" id="inputJudul" name="judul">
             </div>
             <div class="mb-3">
                 <label for="inputPenulis" class="form-label">Penulis</label>
-                <input type="text" class="form-control" id="inputPenulis">
+                <input type="text" class="form-control" id="inputPenulis" name="penulis">
             </div>
             <div class="mb-3">
                 <label for="inputTahunTerbit" class="form-label">Tahun Terbit</label>
-                <input type="number" class="form-control" id="inputTahunTerbit">
+                <input type="number" class="form-control" id="inputTahunTerbit" name="tahun-terbit">
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
